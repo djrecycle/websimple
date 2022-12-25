@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;  /* change the font family to Inter */
+  }
+  
+  body{
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #ffffff;
+  min-height: 100vh;
+  }
+  
+  header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;  /* change the background color to white */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* add a box shadow */
+  padding: 15px 20px;
+}
+
+header img {
+  height: 30px;  /* set the height of the logo image */
+}
+
+header nav {
+  display: flex;  /* change the display of the navigation menu to flex */
+}
+
+header nav ul {
+  display: flex;  /* change the display of the list to flex */
+  list-style: none;  /* remove the list style */
+  margin: 0;  /* remove the margin */
+  padding: 0;  /* remove the padding */
+}
+
+header nav li {
+  margin: 0 20px;  /* add some space between the list items */
+}
+
+header nav a {
+  color: #333;  /* change the color of the links */
+  font-size: 1em;  /* change the font size of the links */
+  text-decoration: none;  /* remove the text decoration from the links */
+}
+
+header nav a:hover {
+  color: #00b8d4;  /* change the color of the links on hover */
+}
+  
+ main {
+  display: flex;  /* change the display of the main element to flex */
+  align-items: center;  /* align the items in the main element to the center */
+  justify-content: space-between;  /* distribute the items in the main element evenly */
+  padding: 50px;  /* add some padding to the main element */
+}
+
+main img {
+  width: 50%;  /* set the width of the product image */
+}
+
+main .description {
+  width: 50%;  /* set the width of the description */
+  font-size: 1.2em;  /* change the font size of the description */
+  line-height: 1.5;  /* change the line height of the description */
+}
+
+main .description h2 {
+  font-size: 2em;  /* change the font size of the heading */
+  margin: 20px 0;  /* add some space above and below the heading */
+}
+
+  
+ footer {
+  background-color: #f1f1f1;  /* change the background color of the footer */
+  padding: 30px;  /* add some padding to the footer */
+  display: flex;  /* change the display of the footer to flex */
+  align-items: center;  /* align the items in the footer to the center */
+  justify-content: space-between;  /* distribute the items in the footer evenly */
+}
+
+footer p {
+  color: #333;  /* change the color of the text in the footer */
+  font-size: 1em;  /* change the font size of the text in the footer */
+  margin: 0;  /* remove the margin from the text in the footer */
+}
+
+footer a {
+  color: #00b8d4;  /* change the color of the links in the footer */
+  text-decoration: none;  /* remove the text decoration from the links in the footer */
+}
+
+@media (max-width: 1000px) {
+  main {
+    flex-direction: column;  /* change the direction of the main element to column */
+  }
+
+  main img {
+    width: 100%;  /* set the width of the product image to 100% */
+  }
+
+  main .description {
+    width: 100%;  /* set the width of the description to 100% */
+  }
+}
